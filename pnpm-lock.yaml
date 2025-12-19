@@ -10,16 +10,16 @@ importers:
     dependencies:
       '@ai-sdk/anthropic':
         specifier: ^1.0.2
-        version: 1.0.5(zod@3.24.1)
+        version: 1.0.5(zod@3.25.76)
       '@ai-sdk/google':
         specifier: ^1.0.3
-        version: 1.0.11(zod@3.24.1)
+        version: 1.0.11(zod@3.25.76)
       '@ai-sdk/openai':
         specifier: ^1.0.4
-        version: 1.0.8(zod@3.24.1)
+        version: 1.0.8(zod@3.25.76)
       '@anatine/zod-mock':
         specifier: ^3.13.3
-        version: 3.13.4(@faker-js/faker@8.4.1)(zod@3.24.1)
+        version: 3.13.4(@faker-js/faker@8.4.1)(zod@3.25.76)
       '@aws-sdk/client-s3':
         specifier: ^3.699.0
         version: 3.714.0
@@ -229,7 +229,7 @@ importers:
         version: 1.1.0(react@18.3.1)
       ai:
         specifier: ^4.0.18
-        version: 4.0.20(react@18.3.1)(zod@3.24.1)
+        version: 4.0.20(react@18.3.1)(zod@3.25.76)
       axios:
         specifier: ^1.7.7
         version: 1.7.9
@@ -316,10 +316,10 @@ importers:
         version: 6.9.16
       ollama-ai-provider:
         specifier: ^1.0.0
-        version: 1.1.0(zod@3.24.1)
+        version: 1.1.0(zod@3.25.76)
       openai:
         specifier: ^4.73.0
-        version: 4.77.0(encoding@0.1.13)(zod@3.24.1)
+        version: 4.77.0(encoding@0.1.13)(zod@3.25.76)
       passport-jwt:
         specifier: ^4.0.1
         version: 4.0.1
@@ -396,8 +396,8 @@ importers:
         specifier: ^33.6.2
         version: 33.7.1(@swc/core@1.5.29(@swc/helpers@0.5.15))(encoding@0.1.13)
       zod:
-        specifier: ^3.23.8
-        version: 3.24.1
+        specifier: ^3.25.76
+        version: 3.25.76
     devDependencies:
       '@eslint/js':
         specifier: ^9.8.0
@@ -2113,6 +2113,9 @@ packages:
 
   '@lecca-io/toolkit@0.29.0':
     resolution: {integrity: sha512-oG9SsJFbowFbXPQ1CcKZrjYEq6WZQTyQbqJ3PO/tG3M4t7aJWfi9QAmMiM3Q9ZJyFi5WuRLsQc/TfhbSHTZ4Nw==}
+
+  '@lecca-io/toolkit@0.98.0':
+    resolution: {integrity: sha512-wf4iJDRyi61mk+cqqCc4vLK9rzQ50BTVGfm6JCnXRBNbdr9QnqzVDc31jNshEaUznEKeE59zu0dNn37Tb2OMDQ==}
 
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
@@ -13753,8 +13756,8 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.24.1:
-    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
   zustand@4.5.5:
     resolution: {integrity: sha512-+0PALYNJNgK6hldkgDq2vLrw5f6g/jCInz52n9RTpropGgeAf/ioFUCdtsjCqu4gNhW9D01rUQBROoRjdzyn2Q==}
@@ -13778,54 +13781,54 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@ai-sdk/anthropic@1.0.5(zod@3.24.1)':
+  '@ai-sdk/anthropic@1.0.5(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      zod: 3.24.1
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
+      zod: 3.25.76
 
-  '@ai-sdk/google@1.0.11(zod@3.24.1)':
+  '@ai-sdk/google@1.0.11(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      zod: 3.24.1
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
+      zod: 3.25.76
 
-  '@ai-sdk/openai@1.0.8(zod@3.24.1)':
+  '@ai-sdk/openai@1.0.8(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      zod: 3.24.1
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
+      zod: 3.25.76
 
-  '@ai-sdk/provider-utils@2.0.4(zod@3.24.1)':
+  '@ai-sdk/provider-utils@2.0.4(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
       eventsource-parser: 3.0.0
       nanoid: 3.3.8
       secure-json-parse: 2.7.0
     optionalDependencies:
-      zod: 3.24.1
+      zod: 3.25.76
 
   '@ai-sdk/provider@1.0.2':
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/react@1.0.6(react@18.3.1)(zod@3.24.1)':
+  '@ai-sdk/react@1.0.6(react@18.3.1)(zod@3.25.76)':
     dependencies:
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      '@ai-sdk/ui-utils': 1.0.5(zod@3.24.1)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
+      '@ai-sdk/ui-utils': 1.0.5(zod@3.25.76)
       swr: 2.2.5(react@18.3.1)
       throttleit: 2.1.0
     optionalDependencies:
       react: 18.3.1
-      zod: 3.24.1
+      zod: 3.25.76
 
-  '@ai-sdk/ui-utils@1.0.5(zod@3.24.1)':
+  '@ai-sdk/ui-utils@1.0.5(zod@3.25.76)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      zod-to-json-schema: 3.24.1(zod@3.24.1)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
+      zod-to-json-schema: 3.24.1(zod@3.25.76)
     optionalDependencies:
-      zod: 3.24.1
+      zod: 3.25.76
 
   '@alloc/quick-lru@5.2.0': {}
 
@@ -13834,11 +13837,11 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@anatine/zod-mock@3.13.4(@faker-js/faker@8.4.1)(zod@3.24.1)':
+  '@anatine/zod-mock@3.13.4(@faker-js/faker@8.4.1)(zod@3.25.76)':
     dependencies:
       '@faker-js/faker': 8.4.1
       randexp: 0.5.3
-      zod: 3.24.1
+      zod: 3.25.76
 
   '@angular-devkit/core@16.0.1(chokidar@3.6.0)':
     dependencies:
@@ -15917,9 +15920,13 @@ snapshots:
 
   '@lecca-io/apps@0.29.0':
     dependencies:
-      '@lecca-io/toolkit': 0.29.0
+      '@lecca-io/toolkit': 0.98.0
 
   '@lecca-io/toolkit@0.29.0':
+    dependencies:
+      tslib: 2.8.1
+
+  '@lecca-io/toolkit@0.98.0':
     dependencies:
       tslib: 2.8.1
 
@@ -21036,18 +21043,18 @@ snapshots:
       clean-stack: 5.2.0
       indent-string: 5.0.0
 
-  ai@4.0.20(react@18.3.1)(zod@3.24.1):
+  ai@4.0.20(react@18.3.1)(zod@3.25.76):
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
-      '@ai-sdk/react': 1.0.6(react@18.3.1)(zod@3.24.1)
-      '@ai-sdk/ui-utils': 1.0.5(zod@3.24.1)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
+      '@ai-sdk/react': 1.0.6(react@18.3.1)(zod@3.25.76)
+      '@ai-sdk/ui-utils': 1.0.5(zod@3.25.76)
       '@opentelemetry/api': 1.9.0
       jsondiffpatch: 0.6.0
-      zod-to-json-schema: 3.24.1(zod@3.24.1)
+      zod-to-json-schema: 3.24.1(zod@3.25.76)
     optionalDependencies:
       react: 18.3.1
-      zod: 3.24.1
+      zod: 3.25.76
 
   ajv-formats@2.1.1(ajv@8.12.0):
     optionalDependencies:
@@ -26928,13 +26935,13 @@ snapshots:
 
   obuf@1.1.2: {}
 
-  ollama-ai-provider@1.1.0(zod@3.24.1):
+  ollama-ai-provider@1.1.0(zod@3.25.76):
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.25.76)
       partial-json: 0.1.7
     optionalDependencies:
-      zod: 3.24.1
+      zod: 3.25.76
 
   on-exit-leak-free@0.2.0: {}
 
@@ -26981,7 +26988,7 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openai@4.77.0(encoding@0.1.13)(zod@3.24.1):
+  openai@4.77.0(encoding@0.1.13)(zod@3.25.76):
     dependencies:
       '@types/node': 18.19.68
       '@types/node-fetch': 2.6.12
@@ -26991,7 +26998,7 @@ snapshots:
       formdata-node: 4.4.1
       node-fetch: 2.7.0(encoding@0.1.13)
     optionalDependencies:
-      zod: 3.24.1
+      zod: 3.25.76
     transitivePeerDependencies:
       - encoding
 
@@ -30322,11 +30329,11 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zod-to-json-schema@3.24.1(zod@3.24.1):
+  zod-to-json-schema@3.24.1(zod@3.25.76):
     dependencies:
-      zod: 3.24.1
+      zod: 3.25.76
 
-  zod@3.24.1: {}
+  zod@3.25.76: {}
 
   zustand@4.5.5(@types/react@18.3.1)(react@18.3.1):
     dependencies:
