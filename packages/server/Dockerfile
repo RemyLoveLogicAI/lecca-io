@@ -1,4 +1,4 @@
-FROM node:20.6.0-alpine AS builder
+FROM node:20.20.0-alpine AS builder
 
 WORKDIR /app
 
@@ -21,7 +21,7 @@ RUN pnpm install --frozen-lockfile
 RUN pnpm exec nx run server:build 
 
 # Production image
-FROM node:20.6.0-alpine
+FROM node:20.20.0-alpine
 
 WORKDIR /app
 
